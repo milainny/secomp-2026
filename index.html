@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#111b45">
-  <title>SECOMP UNESPAR 2026 — Semana da Computação</title>
+  <meta name="theme-color" content="#06367a">
+  <title>sECOMP UNESPAR 2026 — Semana da Computação</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -13,44 +13,50 @@
 <body>
   <header class="hero" id="inicio">
     <nav class="nav container" aria-label="Navegação principal">
-      <a class="brand" href="#inicio"><span class="brand-mark">s</span><span>ECOMP</span><b>26</b></a>
-      <a class="nav-link" href="#programacao">Programação <span>↘</span></a>
+      <a class="course-brand" href="#inicio"><img src="assets/logo-computacao.png" alt="Curso de Bacharelado em Ciência da Computação"></a>
+      <div class="nav-actions"><a href="#programacao">Programação</a><a class="nav-registration" href="#inscricoes">Inscrições</a></div>
     </nav>
     <div class="container hero-content">
-      <p class="eyebrow">Semana da Computação</p>
-      <h1>Ideias que viram<br><em>futuro.</em></h1>
-      <p class="intro">Três dias para explorar tecnologia, criar projetos e conectar pessoas que fazem acontecer.</p>
+      <p class="eyebrow">Universidade Estadual do Paraná · Campus de Campo Mourão</p>
+      <p class="event-kicker">sECOMP <span>2026</span></p>
+      <h1>Onde a<br><em>tecnologia</em><br>acontece.</h1>
+      <p class="intro">A Semana da Computação chega para reunir ideias, talento e experimentação. Aprenda, construa e crie conexões.</p>
       <div class="hero-meta"><span>18—20 AGO</span><i></i><span>2026</span><i></i><span>Presencial</span></div>
-      <a class="button" href="#programacao">Ver programação <span>↓</span></a>
+      <div class="hero-buttons"><a class="button primary" href="#programacao">Conheça as oficinas <span>↓</span></a><a class="button secondary" href="#inscricoes">Fazer inscrição</a></div>
     </div>
-    <div class="orb orb-one"></div><div class="orb orb-two"></div><div class="grid-art"></div>
+    <div class="hero-emblem" aria-hidden="true"><span>⌘</span><b>SECOMP</b><small>2026</small></div>
+    <div class="grid-art"></div>
   </header>
 
   <main>
     <section class="overview container" aria-label="Resumo do evento">
-      <p class="section-label">A sECOMP</p>
-      <div><h2>Conhecimento, prática<br>e comunidade em <em>movimento.</em></h2></div>
-      <div class="stats"><div><strong>03</strong><span>dias de evento</span></div><div><strong>10</strong><span>atividades</span></div><div><strong>04</strong><span>oficinas</span></div></div>
+      <div><p class="section-label">A sECOMP</p><h2>Uma semana para<br><em>fazer diferente.</em></h2></div>
+      <div class="overview-copy"><p>Oficinas práticas, feira tecnológica e hackathon para aproximar você das tecnologias que movem o presente.</p><div class="stats"><div><strong>03</strong><span>dias de evento</span></div><div><strong>06</strong><span>oficinas</span></div><div><strong>10+</strong><span>atividades</span></div></div></div>
     </section>
 
     <section class="schedule" id="programacao">
       <div class="container">
-        <div class="schedule-heading"><div><p class="section-label">Programação</p><h2>Escolha o seu<br><em>próximo passo.</em></h2></div><p>Oficinas, feira tecnológica e hackathon para colocar a mão na massa.</p></div>
+        <div class="schedule-heading"><div><p class="section-label">Programação</p><h2>Aprenda.<br><em>Experimente.</em></h2></div><p>Escolha uma oficina, clique em <strong>Inscrever-se</strong> e reserve sua participação.</p></div>
         <div class="tabs" role="tablist" aria-label="Dias do evento">
-          <button class="tab active" role="tab" aria-selected="true" data-day="18"><b>TER</b><span>18 AGO</span></button>
-          <button class="tab" role="tab" aria-selected="false" data-day="19"><b>QUA</b><span>19 AGO</span></button>
-          <button class="tab" role="tab" aria-selected="false" data-day="20"><b>QUI</b><span>20 AGO</span></button>
+          <button class="tab active" role="tab" aria-selected="true" data-day="18"><b>TERÇA</b><span>18 DE AGOSTO</span></button>
+          <button class="tab" role="tab" aria-selected="false" data-day="19"><b>QUARTA</b><span>19 DE AGOSTO</span></button>
+          <button class="tab" role="tab" aria-selected="false" data-day="20"><b>QUINTA</b><span>20 DE AGOSTO</span></button>
         </div>
         <div id="event-list" class="event-list" aria-live="polite"></div>
       </div>
     </section>
 
-    <section class="closing container">
-      <div><p class="section-label">Até lá</p><h2>Uma semana para<br><em>criar juntos.</em></h2></div>
-      <p>Prepare-se para aprender, compartilhar e transformar boas ideias em experiências reais.</p>
+    <section class="registration container" id="inscricoes">
+      <div><p class="section-label">Inscrições</p><h2>Garanta sua<br><em>vaga.</em></h2><p class="registration-note">Selecione uma oficina na programação para começar sua inscrição.</p></div>
+      <form class="registration-card" id="registration-form">
+        <label for="selected-workshop">Oficina selecionada</label>
+        <select id="selected-workshop" required><option value="">Selecione uma oficina</option></select>
+        <button class="button primary" type="submit">Continuar inscrição <span>→</span></button>
+        <p class="form-message" id="form-message" aria-live="polite"></p>
+      </form>
     </section>
   </main>
-  <footer><div class="container"><a class="brand" href="#inicio"><span class="brand-mark">s</span><span>ECOMP</span><b>26</b></a><span>Semana da Computação · 2026</span></div></footer>
+  <footer><div class="container"><img src="assets/logo-unespar.png" alt="UNESPAR — Universidade Estadual do Paraná"><span>Semana da Computação · 2026</span><a href="#inicio">Voltar ao topo ↑</a></div></footer>
   <script src="script.js"></script>
 </body>
 </html>

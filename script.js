@@ -49,11 +49,6 @@ list.addEventListener('click', event => {
   formMessage.textContent = 'Oficina selecionada. Continue para abrir o formulário de inscrição.';
 });
 
-document.querySelector('#registration-form').addEventListener('submit', event => {
-  event.preventDefault();
-  formMessage.textContent = workshopSelect.value ? 'O link do formulário desta oficina ainda precisa ser configurado pela organização.' : 'Selecione uma oficina para continuar.';
-});
-
 workshops.forEach(([, title, , , , link]) => {
   workshopSelect.add(new Option(title, link || ''));
 });

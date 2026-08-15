@@ -22,8 +22,6 @@ const workshopSelect = document.querySelector('#selected-workshop');
 const formMessage = document.querySelector('#form-message');
 const workshops = Object.values(schedule).flat().filter(([, , type]) => type === 'Oficina');
 
-workshops.forEach(([, title]) => workshopSelect.add(new Option(title, title)));
-
 function render(day) {
   list.innerHTML = schedule[day].map(([time, title, type, place, host, link]) => {
     const registration = type === 'Oficina'
@@ -54,6 +52,23 @@ list.addEventListener('click', event => {
 document.querySelector('#registration-form').addEventListener('submit', event => {
   event.preventDefault();
   formMessage.textContent = workshopSelect.value ? 'O link do formulário desta oficina ainda precisa ser configurado pela organização.' : 'Selecione uma oficina para continuar.';
+});
+
+workshops.forEach(([, title, , , , link]) => {
+  workshopSelect.add(new Option(title, link || ''));
+});
+
+document.querySelector('#registration-form').addEventListener('submit', event => {
+  event.preventDefault();
+
+  const link = workshopSelect.value;
+
+  if (!link) {
+    formMessage.textContent = 'Selecione uma oficina para continuar.';
+    return;
+  }
+
+  window.open(link, '_blank', 'noopener');
 });
 
 render(18);

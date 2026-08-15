@@ -7,8 +7,8 @@ const schedule = {
   ],
   19: [
     ['08h30', 'Feira Tecnológica', 'Mostra', 'Auditório José Berton', 'Todos', null],
-    ['13h30', 'Introdução à segurança cibernética', 'Oficina', 'Laboratório 38', 'Alisson UEM', 'https://forms.gle/N4G5LwxERvjm5ZMc7'],
-    ['13h30', 'Python na criação de agentes de IA', 'Oficina', 'Laboratório 02', 'Evandro TCS', 'https://forms.gle/u42r4oUmWj867dPv8']
+    ['13h30', 'Introdução à segurança cibernética', 'Oficina', 'Laboratório 38', 'Alisson / UEM', 'https://forms.gle/N4G5LwxERvjm5ZMc7'],
+    ['13h30', 'Python na criação de agentes de IA', 'Oficina', 'Laboratório 02', 'Evandro / TCS', 'https://forms.gle/u42r4oUmWj867dPv8']
   ],
   20: [
     ['08h30', 'Hackathon · Preparação da ideia dos alunos', 'Hackathon', 'Laboratório de Informática', 'Pegasus', 'https://forms.gle/j5iRfxVexBN5NimFA'],

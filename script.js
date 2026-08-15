@@ -1,14 +1,14 @@
 const schedule = {
   18: [
     ['08h00', 'Abertura e Coffee break', 'Encontro', 'Auditório José Berton', 'Todos', null],
-    ['08h30', 'Mineração de Repositórios de Software', 'Oficina', 'Laboratório de Informática', 'João Paulo', 'https://forms.gle/4xeQgNcDz14ppZp19'],
+    ['08h30', 'Mineração de Repositórios de Software', 'Oficina', 'Auditório José Berton e Laboratórios 38 e 40', 'João Paulo', 'https://forms.gle/4xeQgNcDz14ppZp19'],
     ['13h30', 'Simulação de Sistemas Complexos (Python)', 'Oficina', 'Laboratório de Informática', 'Willyan H. P. Bertolino', 'https://forms.gle/VhqGKeNAoTAzAGFeA'],
     ['15h30', 'Robocode: Programe seu Próprio Agente Inteligente', 'Oficina', 'Laboratório de Informática', 'Felipe / UTFPR', 'https://forms.gle/W1xrmYctHQPPDYcq9']
   ],
   19: [
     ['08h30', 'Feira Tecnológica', 'Mostra', 'Auditório José Berton', 'Todos', null],
-    ['13h30', 'Introdução à segurança cibernética', 'Oficina', 'Laboratório de Informática', 'Alisson UEM', 'https://forms.gle/N4G5LwxERvjm5ZMc7'],
-    ['13h30', 'Python na criação de agentes de IA', 'Oficina', 'Laboratório de Informática', 'Evandro TCS', 'https://forms.gle/u42r4oUmWj867dPv8']
+    ['13h30', 'Introdução à segurança cibernética', 'Oficina', 'Laboratório 38', 'Alisson UEM', 'https://forms.gle/N4G5LwxERvjm5ZMc7'],
+    ['13h30', 'Python na criação de agentes de IA', 'Oficina', 'Laboratório 02', 'Evandro TCS', 'https://forms.gle/u42r4oUmWj867dPv8']
   ],
   20: [
     ['08h30', 'Hackathon · Preparação da ideia dos alunos', 'Hackathon', 'Laboratório de Informática', 'Pegasus', 'https://forms.gle/j5iRfxVexBN5NimFA'],

@@ -1,21 +1,20 @@
 const schedule = {
   18: [
-    ['08h00', 'Abertura e Coffee break', 'Encontro', 'Auditório José Berton', 'Marcelo', null],
-    ['08h30', 'Oficina I · Mineração de Repositórios de Software', 'Oficina', 'Laboratório de Informática', 'João Paulo', null],
-    ['13h30', 'Oficina II · Simulação de Sistemas Complexos (Python)', 'Oficina', 'Laboratório de Informática', 'Willyan H. P. Bertolino', null],
-    ['15h30', 'Oficina III · Robocode: Programe seu Próprio Agente Inteligente', 'Oficina', 'Laboratório de Informática · online', 'Felipe / UTFPR', null]
+    ['08h00', 'Abertura e Coffee break', 'Encontro', 'Auditório José Berton', '', null],
+    ['08h30', 'Mineração de Repositórios de Software', 'Oficina', 'Laboratório de Informática', 'João Paulo', 'https://forms.gle/4xeQgNcDz14ppZp19'],
+    ['13h30', 'Simulação de Sistemas Complexos (Python)', 'Oficina', 'Laboratório de Informática', 'Willyan H. P. Bertolino', 'https://forms.gle/VhqGKeNAoTAzAGFeA'],
+    ['15h30', 'Robocode: Programe seu Próprio Agente Inteligente', 'Oficina', 'Laboratório de Informática', 'Felipe / UTFPR', 'https://forms.gle/W1xrmYctHQPPDYcq9']
   ],
   19: [
-    ['08h30', 'Feira Tecnológica', 'Mostra', 'Auditório José Berton', 'Lisandro R. Modesto', null],
-    ['10h30', 'Feira Tecnológica', 'Mostra', 'Auditório José Berton', 'Lisandro R. Modesto', null],
-    ['13h30', 'Oficina IV · Introdução à segurança cibernética', 'Oficina', 'Laboratório de Informática', 'Alisson UEM / Lailla', 'https://forms.gle/gk8NHoceSEC9arE17'],
-    ['13h30', 'Oficina IV · Python na criação de agentes de IA', 'Oficina', 'Laboratório de Informática', 'Evandro TCS / Lailla', null]
+    ['08h30', 'Feira Tecnológica', 'Mostra', 'Auditório José Berton', '', null],
+    ['10h30', 'Feira Tecnológica', 'Mostra', 'Auditório José Berton', '', null],
+    ['13h30', 'Introdução à segurança cibernética', 'Oficina', 'Laboratório de Informática', 'Alisson UEM', 'https://forms.gle/gk8NHoceSEC9arE17'],
+    ['13h30', 'Python na criação de agentes de IA', 'Oficina', 'Laboratório de Informática', 'Evandro TCS', 'https://forms.gle/u42r4oUmWj867dPv8']
   ],
   20: [
-    ['08h30', 'Hackathon · Preparação da ideia dos alunos', 'Hackathon', 'Laboratório de Informática', 'Pegasus · Brena · João S. · João D.', null],
-    ['10h30', 'Hackathon · Programação do projeto', 'Hackathon', 'Laboratório de Informática', 'Pegasus · Brena · João S. · João D.', null],
-    ['13h30', 'Oficina V · Do Front ao Back: Construindo um App', 'Oficina', 'Laboratório de Informática', 'Pegasus · Brena · João S. · João D.', null],
-    ['15h30', 'Oficina VI · Seguras na Rede', 'Oficina', 'Laboratório de Informática', 'Pegasus · Brena · Nathalia · Madu · Sara', null]
+    ['08h30', 'Hackathon · Preparação da ideia dos alunos', 'Hackathon', 'Laboratório de Informática', 'Pegasus', 'https://forms.gle/j5iRfxVexBN5NimFA'],
+    ['13h30', 'Do Front ao Back: Construindo um App', 'Oficina', 'Laboratório de Informática', 'Pegasus', 'https://forms.gle/vmC7p484hJxxFQAr5'],
+    ['15h30', 'Seguras na Rede', 'Oficina', 'Laboratório de Informática', 'Pegasus', 'https://forms.gle/VxoEdBi3rQq8uotLA']
   ]
 };
 

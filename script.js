@@ -6,12 +6,12 @@ const schedule = {
     ['15h30', 'Robocode: Programe seu Próprio Agente Inteligente', 'Oficina', 'Laboratório de Informática', 'Felipe / UTFPR', 'https://forms.gle/W1xrmYctHQPPDYcq9']
   ],
   19: [
-    ['08h30', 'Feira Tecnológica', 'Mostra', 'Auditório José Berton', 'Todos', null],
+    ['08h30', 'Feira Tecnológica', 'Mostra', 'Auditório José Berton', 'Todos', 'https://forms.gle/erVNZ3MGzkNi8Aen9'],
     ['13h30', 'Introdução à segurança cibernética', 'Oficina', 'Laboratório 38', 'Alisson / UEM', 'https://forms.gle/N4G5LwxERvjm5ZMc7'],
     ['13h30', 'Python na criação de agentes de IA', 'Oficina', 'Laboratório 02', 'Evandro / TCS', 'https://forms.gle/u42r4oUmWj867dPv8']
   ],
   20: [
-    ['08h30', 'Hackathon · Preparação da ideia dos alunos', 'Hackathon', 'Laboratório de Informática', 'Pegasus', 'https://forms.gle/j5iRfxVexBN5NimFA'],
+    ['08h30', 'Hackathon', 'Hackathon', 'Laboratório de Informática', 'Pegasus', 'https://forms.gle/j5iRfxVexBN5NimFA'],
     ['13h30', 'Do Front ao Back: Construindo um App', 'Oficina', 'Laboratório de Informática', 'Pegasus', 'https://forms.gle/vmC7p484hJxxFQAr5'],
     ['15h30', 'Seguras na Rede', 'Oficina', 'Laboratório de Informática', 'Pegasus', 'https://forms.gle/VxoEdBi3rQq8uotLA']
   ]

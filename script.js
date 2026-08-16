@@ -20,11 +20,11 @@ const schedule = {
 const list = document.querySelector('#event-list');
 const workshopSelect = document.querySelector('#selected-workshop');
 const formMessage = document.querySelector('#form-message');
-const workshops = Object.values(schedule).flat().filter(([, , type]) => type === 'Oficina');
+const workshops = Object.values(schedule).flat().filter(([, , type]) => type === 'Oficina' || type === 'Mostra' || type === 'Hackathon');
 
 function render(day) {
   list.innerHTML = schedule[day].map(([time, title, type, place, host, link]) => {
-    const registration = type === 'Oficina'
+    const registration = type === 'Oficina' || type === 'Mostra' || type === 'Hackathon'
       ? (link
         ? `<a class="register-button" href="${link}" target="_blank" rel="noopener">Inscrever-se →</a>`
         : `<button class="register-button" type="button" data-workshop="${title}">Inscrever-se →</button>`)
@@ -46,7 +46,7 @@ list.addEventListener('click', event => {
   if (!button) return;
   workshopSelect.value = button.dataset.workshop;
   document.querySelector('#inscricoes').scrollIntoView({ behavior: 'smooth', block: 'center' });
-  formMessage.textContent = 'Oficina selecionada. Continue para abrir o formulário de inscrição.';
+  formMessage.textContent = 'Atividade selecionada. Continue para abrir o formulário de inscrição.';
 });
 
 workshops.forEach(([, title, , , , link]) => {
@@ -59,7 +59,7 @@ document.querySelector('#registration-form').addEventListener('submit', event =>
   const link = workshopSelect.value;
 
   if (!link) {
-    formMessage.textContent = 'Selecione uma oficina para continuar.';
+    formMessage.textContent = 'Selecione uma atividade para continuar.';
     return;
   }
 

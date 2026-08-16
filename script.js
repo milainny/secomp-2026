@@ -2,7 +2,7 @@ const schedule = {
   18: [
     ['08h00', 'Abertura e Coffee break', 'Encontro', 'Auditório José Berton', 'Todos', null],
     ['08h30', 'Mineração de Repositórios de Software', 'Oficina', 'Auditório José Berton e Laboratórios 38 e 40', 'João Paulo', 'https://forms.gle/4xeQgNcDz14ppZp19'],
-    ['13h30', 'Simulação de Sistemas Complexos (Python)', 'Oficina', 'Laboratório de Informática', 'Willyan H. P. Bertolino', 'https://forms.gle/VhqGKeNAoTAzAGFeA'],
+    ['13h30', 'Simulação de Sistemas Complexos (Python)', 'Oficina', 'Laboratório 40', 'Willyan H. P. Bertolino', 'https://forms.gle/VhqGKeNAoTAzAGFeA'],
     ['15h30', 'Robocode: Programe seu Próprio Agente Inteligente', 'Oficina', 'Laboratório de Informática', 'Felipe / UTFPR', 'https://forms.gle/W1xrmYctHQPPDYcq9']
   ],
   19: [
